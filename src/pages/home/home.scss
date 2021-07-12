@@ -1,0 +1,18 @@
+@import 'src/styles/variables.scss';
+
+.home {
+  padding: 20px 0;
+}
+
+.cgseTX {
+ background-color: var(--viewerBackColor);
+}
+
+.kwpAUB {
+  color: var(--menuTextColor);
+}
+
+.MuiButton-containedPrimary {
+  color: $menuTextColor !important;
+  background-color: var(--templateBackColor) !important;
+}

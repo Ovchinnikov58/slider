@@ -1,0 +1,19 @@
+@import 'src/styles/variables.scss';
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--templateBackColor);
+  color: var(--menuTextColor);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    color: var(--menuTextColor) !important;
+    display: flex;
+    align-items: center;
+  }
+}
